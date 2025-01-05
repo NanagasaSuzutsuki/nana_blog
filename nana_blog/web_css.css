@@ -199,6 +199,19 @@ body {
     transform: scale(1.1);
 }
 
+.no-link {
+    text-decoration: none; 
+    color: inherit; 
+    font-size: inherit; 
+    font-weight: inherit; 
+    cursor: pointer; 
+}
+
+.no-link:hover {
+    text-decoration: none; 
+    color: inherit;
+}
+
 .language {
     position: absolute;
     top: 0%;

@@ -1,0 +1,134 @@
+/* 通用样式 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #f4f4f4;
+}
+
+/* 个人信息栏 */
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #333333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.avatar-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h2 {
+    margin: 0;
+    color: #B0E0E6;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.contacts a {
+    margin-right: 15px;
+    color: #B0E0E6;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+.home-link {
+    display: block;
+    margin-top: 10px;
+    color: #B0E0E6;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
+
+/* 导航栏 */
+.journal-nav {
+    padding: 10px;
+    background-color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.journal-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.journal-nav a {
+    text-decoration: none;
+    color: #B0E0E6;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.journal-nav a:hover {
+    color: #ffffff;
+}
+
+/* 日志内容 */
+.journal-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.entry {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 5px solid #B0E0E6;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.entry h2 {
+    margin: 0 0 10px;
+    color: #B0E0E6;
+}
+
+.entry p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* 时间轴 */
+.timeline {
+    position: fixed;
+    right: 20px;
+    top: 20%;
+    width: 200px;
+    height: 60%;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.timeline ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline li {
+    margin-bottom: 15px;
+    color: #B0E0E6;
+    font-size: 0.9em;
+}
